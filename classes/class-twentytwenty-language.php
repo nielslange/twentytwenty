@@ -20,7 +20,7 @@ if ( ! class_exists( 'TwentyTwenty_Language' ) ) {
 		 *
 		 * Return CSS for non-latin languagee, if available, or null
 		 *
-		 * @return string|null
+		 * @return void
 		 */
 		public static function load_fallback_languages() {
 
@@ -87,9 +87,7 @@ if ( ! class_exists( 'TwentyTwenty_Language' ) ) {
 				)
 			);
 
-			var_dump($font_family[ $locale[0] ]);
-
-			// Generate and inline the CSS
+			// Generate and inline the CSS.
 			foreach ( $elements as $element ) {
 				$custom_css = twentytwenty_generate_css( implode( ',', $element ), 'font-family', $font_family[ $locale ], null, null, false );
 				wp_add_inline_style( 'twentytwenty-style', $custom_css );
