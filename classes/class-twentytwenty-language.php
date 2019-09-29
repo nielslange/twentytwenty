@@ -30,51 +30,51 @@ if ( ! class_exists( 'TwentyTwenty_Language' ) ) {
 				'twentytwenty_get_localized_font_family_types',
 				array(
 					// Arabic.
-					'ar'    => 'Tahoma, Arial, sans_serif',
-					'ary'   => 'Tahoma, Arial, sans_serif',
-					'azb'   => 'Tahoma, Arial, sans_serif',
-					'ckb'   => 'Tahoma, Arial, sans_serif',
-					'fa-IR' => 'Tahoma, Arial, sans_serif',
-					'haz'   => 'Tahoma, Arial, sans_serif',
-					'ps'    => 'Tahoma, Arial, sans_serif',
+					'ar'    => array( 'Tahoma', 'Arial', 'sans_serif' ),
+					'ary'   => array( 'Tahoma', 'Arial', 'sans_serif' ),
+					'azb'   => array( 'Tahoma', 'Arial', 'sans_serif' ),
+					'ckb'   => array( 'Tahoma', 'Arial', 'sans_serif' ),
+					'fa-IR' => array( 'Tahoma', 'Arial', 'sans_serif' ),
+					'haz'   => array( 'Tahoma', 'Arial', 'sans_serif' ),
+					'ps'    => array( 'Tahoma', 'Arial', 'sans_serif' ),
 					// Chinese Simplified (China) - Noto Sans SC.
-					'zh-CN' => '"PingFang SC", "Helvetica Neue", "Microsoft YaHei New", "STHeiti Light", sans-serif',
+					'zh-CN' => array( '"PingFang SC"', '"Helvetica Neue"', '"Microsoft YaHei New"', '"STHeiti Light"', 'sans-serif' ),
 					// Chinese Traditional (Taiwan) - Noto Sans TC.
-					'zh-TW' => '"PingFang TC", "Helvetica Neue", "Microsoft YaHei New", "STHeiti Light", sans-serif',
+					'zh-TW' => array( '"PingFang TC"', '"Helvetica Neue"', '"Microsoft YaHei New"', '"STHeiti Light"', 'sans-serif' ),
 					// Chinese Traditional (Taiwan) - Noto Sans TC.
-					'zh-TW' => '"PingFang TC", "Helvetica Neue", "Microsoft YaHei New", "STHeiti Light", sans-serif',
+					'zh-TW' => array( '"PingFang TC"', '"Helvetica Neue"', '"Microsoft YaHei New"', '"STHeiti Light"', 'sans-serif' ),
 					// Chinese (Hong Kong) - Noto Sans HK.
-					'zh-HK' => '"PingFang HK", "Helvetica Neue", "Microsoft YaHei New", "STHeiti Light", sans-serif',
+					'zh-HK' => array( '"PingFang HK"', '"Helvetica Neue"', '"Microsoft YaHei New"', '"STHeiti Light"', 'sans-serif' ),
 					// Cyrillic.
-					'bel'   => '"Helvetica Neue", Helvetica, "Segoe UI", Arial, sans_serif;',
-					'bg-BG' => '"Helvetica Neue", Helvetica, "Segoe UI", Arial, sans_serif;',
-					'kk'    => '"Helvetica Neue", Helvetica, "Segoe UI", Arial, sans_serif;',
-					'mk-MK' => '"Helvetica Neue", Helvetica, "Segoe UI", Arial, sans_serif;',
-					'mn'    => '"Helvetica Neue", Helvetica, "Segoe UI", Arial, sans_serif;',
-					'ru-RU' => '"Helvetica Neue", Helvetica, "Segoe UI", Arial, sans_serif;',
-					'sah'   => '"Helvetica Neue", Helvetica, "Segoe UI", Arial, sans_serif;',
-					'sr-RS' => '"Helvetica Neue", Helvetica, "Segoe UI", Arial, sans_serif;',
-					'tt-RU' => '"Helvetica Neue", Helvetica, "Segoe UI", Arial, sans_serif;',
-					'uk'    => '"Helvetica Neue", Helvetica, "Segoe UI", Arial, sans_serif;',
+					'bel'   => array( '"Helvetica Neue"', 'Helvetica', '"Segoe UI"', 'Arial', 'sans_serif' ),
+					'bg-BG' => array( '"Helvetica Neue"', 'Helvetica', '"Segoe UI"', 'Arial', 'sans_serif' ),
+					'kk'    => array( '"Helvetica Neue"', 'Helvetica', '"Segoe UI"', 'Arial', 'sans_serif' ),
+					'mk-MK' => array( '"Helvetica Neue"', 'Helvetica', '"Segoe UI"', 'Arial', 'sans_serif' ),
+					'mn'    => array( '"Helvetica Neue"', 'Helvetica', '"Segoe UI"', 'Arial', 'sans_serif' ),
+					'ru-RU' => array( '"Helvetica Neue"', 'Helvetica', '"Segoe UI"', 'Arial', 'sans_serif' ),
+					'sah'   => array( '"Helvetica Neue"', 'Helvetica', '"Segoe UI"', 'Arial', 'sans_serif' ),
+					'sr-RS' => array( '"Helvetica Neue"', 'Helvetica', '"Segoe UI"', 'Arial', 'sans_serif' ),
+					'tt-RU' => array( '"Helvetica Neue"', 'Helvetica', '"Segoe UI"', 'Arial', 'sans_serif' ),
+					'uk'    => array( '"Helvetica Neue"', 'Helvetica', '"Segoe UI"', 'Arial', 'sans_serif' ),
 					// Devanagari.
-					'bn-BD' => 'Arial, sans_serif;',
-					'hi-IN' => 'Arial, sans_serif;',
-					'mr'    => 'Arial, sans_serif;',
-					'ne-NP' => 'Arial, sans_serif;',
+					'bn-BD' => array( 'Arial', 'sans_serif' ),
+					'hi-IN' => array( 'Arial', 'sans_serif' ),
+					'mr'    => array( 'Arial', 'sans_serif' ),
+					'ne-NP' => array( 'Arial', 'sans_serif' ),
 					// Greek.
-					'el'    => '"Helvetica Neue", Helvetica, Arial, sans_serif;',
+					'el'    => array( '"Helvetica Neue", Helvetica, Arial, sans_serif' ),
 					// Gujarati.
-					'gu'    => 'Arial, sans_serif;',
+					'gu'    => array( 'Arial', 'sans_serif' ),
 					// Hebrew.
-					'he-IL' => '"Arial Hebrew", Arial, sans_serif;',
+					'he-IL' => array( '"Arial Hebrew"', 'Arial', 'sans_serif' ),
 					// Japanese.
-					'ja'    => '"Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;',
+					'ja'    => array( '"Hiragino Kaku Gothic ProN"', '"Meiryo"', 'sans-serif' ),
 					// Korean.
-					'ko-KR' => '"Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;',
+					'ko-KR' => array( '"Apple SD Gothic Neo"', '"Malgun Gothic"', '"Nanum Gothic"', 'Dotum', 'sans-serif' ),
 					// Thai.
-					'th'    => '"Sukhumvit Set", "Helvetica Neue", Helvetica, Arial, sans-serif;',
+					'th'    => array( '"Sukhumvit Set"', '"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif' ),
 					// Vietnamese.
-					'vi'    => '"Libre Franklin", sans-serif;',
+					'vi'    => array( '"Libre Franklin"', 'sans-serif' ),
 				)
 			);
 
@@ -89,7 +89,7 @@ if ( ! class_exists( 'TwentyTwenty_Language' ) ) {
 
 			// Generate and inline the CSS.
 			foreach ( $elements as $element ) {
-				$custom_css = twentytwenty_generate_css( implode( ',', $element ), 'font-family', $font_family[ $locale ], null, null, false );
+				$custom_css = twentytwenty_generate_css( implode( ',', $element ), 'font-family', implode( ',', $font_family[ $locale ] ), null, null, false );
 				wp_add_inline_style( 'twentytwenty-style', $custom_css );
 			}
 		}
